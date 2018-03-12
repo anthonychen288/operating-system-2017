@@ -1,0 +1,11 @@
+½sÄ¶¦³hiredis.hªºÀÉ®×:
+	g++ -g server.cpp -lhiredis -o server
+INCLUDE = -I./ -I/usr/local/include/ -I./redlock-cpp/ -I./hiredis/
+CINCLUDE = -I./ -I/usr/local/include/
+LOCKLIB = -L./bin -lredlock -L./hiredis -lhiredis
+EXOBJSCLOCK =  \
+	bin/CLockExample.o\
+    bin/sds.o\
+    bin/redlock.o
+$(CXX) $(CXXFLAGS) -o $(TARGETDIR_BIN)/$(EXOUTPUTCLOCK) $(EXOBJSCLOCK) $(LOCKLIB)
+g++ -o server bin/CLockExample.o bin/sds.o bin/redlock.o -L./bin -lredlock -L./hiredis -lhiredis

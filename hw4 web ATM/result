@@ -1,0 +1,20 @@
+table - displayAds
+count : 10000
+impressions : 803.022 / 1944.272
+clicks : 71.411 / 461.585
+reach : 783.590 / 1898.662
+
+table - searchAds
+count : 10000
+clicks : 4.836 / 35.796
+reach : 10.638 / 106.527
+conversions : 2.287 / 18.129
+
+table - videoAds
+count : 10000
+views : 843 / 2227.230
+
+table - socialAds
+count : 10000
+clicks : 6.990 / 45.955
+interactions : 14.798 / 86.823
